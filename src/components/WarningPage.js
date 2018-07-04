@@ -3,9 +3,9 @@
  */
 
 import React from "react";
-import WarningBanner from './Warning'
+import WarningBanner from './WarningBanner'
 
-class Page extends React.Component {
+class WarningPage extends React.Component {
   constructor(props) {
     super(props);
     this.state = {showWarning: true};
@@ -30,4 +30,4 @@ class Page extends React.Component {
   }
 }
 
-export default Page;
+export default WarningPage;

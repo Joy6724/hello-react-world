@@ -14,12 +14,23 @@
   color: white;
 }
 
+.App-body {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
 .App-title {
   font-size: 1.5em;
 }
 
 .App-intro {
   font-size: large;
+}
+
+.App-table {
+  margin: 0 auto;
 }
 
 @keyframes App-logo-spin {
