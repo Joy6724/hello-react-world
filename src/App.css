@@ -29,12 +29,6 @@
   font-size: large;
 }
 
-.App-table {
-  margin: 0 auto;
-  width: 800px;
-  border-color: white;
-}
-
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }

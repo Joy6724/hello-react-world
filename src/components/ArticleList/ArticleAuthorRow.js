@@ -8,7 +8,7 @@ class ArticleAuthorRow extends React.Component {
   render() {
     return (
       <tr>
-        <th colSpan="2">{this.props.author}</th>
+        <th>{this.props.author}</th>
       </tr>
     )
   }

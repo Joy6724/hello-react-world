@@ -3,15 +3,17 @@
  */
 
 import React from "react"
+import {Link} from 'react-router-dom';
 
 class ArticleRow extends React.Component {
   render(){
-    const article = props.article;
+    const article = this.props.article;
     return (
-      <tr>
-        <td>{article.title}</td>
-        <td>{article.link}</td>
-      </tr>
+        <tr>
+          <td>
+            <Link to={`/list/detail/${article.id}`}>{article.title}</Link>
+          </td>
+        </tr>
     )
   }
 }

@@ -12,8 +12,6 @@ class ArticleTable extends React.Component {
     let lastAuthor = null;
 
     this.props.articles.forEach((article) => {
-      console.log('this.props.isShared', this.props.isShared);
-      console.log('this.props.filterText', this.props.filterText);
       if (article.title.indexOf(this.props.filterText) === -1 || (!article.shared && this.props.isShared)) {
         return;
       }
@@ -31,15 +29,12 @@ class ArticleTable extends React.Component {
       lastAuthor = article.author;
     });
 
-    // console.log(rows);
-
     return (
       <div>
-        <table className="App-table" border="1">
+        <table className="List-table" border="1">
           <thead>
           <tr>
-            <th>Title</th>
-            <th>Link</th>
+            <th>文章列表</th>
           </tr>
           </thead>
           <tbody>

@@ -12,12 +12,10 @@ class Search extends React.Component {
   }
 
   handleInputTextChange(e) {
-    console.log(this.props.filterText)
     this.props.onFilterTextInput(e.target.value);
   }
 
   handleInputCheckboxChange(e) {
-    console.log(this.props.isShared)
     this.props.onIsSharedInput(e.target.checked);
   }
 

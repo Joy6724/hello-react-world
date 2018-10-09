@@ -2,4 +2,19 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background-color: #222;
+  color: white;
+}
+.List-table {
+  margin: 0 auto;
+  width: 800px;
+  border-color: white;
+}
+
+.List-body {
+  text-align: center;
+}
+
+.Detail {
+  text-align: center;
 }
